@@ -319,14 +319,7 @@ function App() {
             />
           }
         />
-        <Route
-          exact
-          path="/ai-chat"
-          element={
-            <AIChat
-            />
-          }
-        />
+        
         <Route
 
           exact
