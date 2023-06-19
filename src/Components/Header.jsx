@@ -169,17 +169,7 @@ const Header = forwardRef((props, ref) => {
               Dub Anime
             </NavLink>
           </li> */}
-          <li>
-            <NavLink to={"/ai-chat"} onClick={() => closeMenuWhenClickedLink()}>
-              ChatterBox
-            </NavLink>
-          </li>
-
-          <li>
-            <NavLink to={"/image-search"} onClick={() => closeMenuWhenClickedLink()}>
-              AniScan
-            </NavLink>
-          </li>
+          
         </ul>
         <div className="search">
           <input
