@@ -333,16 +333,16 @@ export default function Stream(props) {
   return (
     <>
       <Helmet>
-        <title>You are now watching {episodeId} on AnimeTrix</title>
-        <meta property="og:title" content="AnimeTrix" />
-        <meta property="og:description" content={`Watch or download ${episodeId} for free on Animetrix `} />
+        <title>You are now watching {episodeId} on AnimeTochi</title>
+        <meta property="og:title" content="AnimeTochi" />
+        <meta property="og:description" content={`Watch or download ${episodeId} for free on AnimeTochi `} />
         <meta property="og:image" content="https://user-images.githubusercontent.com/95211406/234815538-17642467-574a-42ec-96d1-75c2a67bebd3.png" />
-        <meta property="og:url" content="https://animetrix.vercel.app/" />
+        <meta property="og:url" content="https://bgtoons.fun/" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="https://user-images.githubusercontent.com/95211406/234815538-17642467-574a-42ec-96d1-75c2a67bebd3.png" />
-        <meta name="twitter:title" content="Animetrix" />
-        <meta name="twitter:description" content={`Watch or download ${episodeId} for free on Animetrix `}/>
+        <meta name="twitter:title" content="AnimeTochi" />
+        <meta name="twitter:description" content={`Watch or download ${episodeId} for free on AnimeTochi `}/>
         <meta name="twitter:image" content="https://user-images.githubusercontent.com/95211406/234815538-17642467-574a-42ec-96d1-75c2a67bebd3.png" />
       </Helmet>
       <ToastContainer />
