@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 function Footer() {
 
   const githubUrl = () => {
-    window.open('https://github.com/ShivaBhattacharjee/AnimeTrix')
+    window.open('#')
   }
 
   const instagramUrl = () => {
-    window.open('https://www.instagram.com/animetrix.200/')
+    window.open('https://www.instagram.com/BondGreninja/')
   }
   const discordUrl = () => {
-    window.open('https://discord.gg/t7xSMNr7zN')
+    window.open('#')
   }
   return (
     <div className="footer">
